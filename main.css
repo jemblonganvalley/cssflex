@@ -1,0 +1,74 @@
+/*
+    CSS RESETER
+*/
+
+/* MEMBUAT SCROLL HALUS */
+html{
+    scroll-behavior: smooth;
+}
+
+/* MENGATUR SETIAP ELEMENT AGAR */
+/* BORDERNYA BOX */
+*{
+    box-sizing: border-box;
+}
+
+/* KITA SET BODY, agar ukurannya tetap */
+/* Dan TIDAK mempunyai PADDING terhadap childnya */
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navbar{
+    width: 80%;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+}
+
+.box{
+    width: 150px;
+    height: 50px;
+}
+
+.box1{
+    background-color: orange;
+}
+.box2{
+    background-color: pink;
+}
+.box3{
+    background-color: lightskyblue;
+}
+.box4{
+    background-color: black;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Display Flex</title>
+
+</head>
+<body>
+    
+    <main class="container">
+
+        <nav class="navbar">
+
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+
+        </nav>
+
+        <div class="flex_option">
+
+            <form id="display">
+
+                <div class="form_group">
+                    <label for="css_display">Display</label>
+                    <select name="css_display" id="css_display" onchange="cssDisplay()">
+                        <option value="initial">initial</option>
+                        <option value="flex">flex</option>
+                    </select>
+                </div>
+
+                <div class="form_group">
+                    <label for="css_justify_content">Justify content</label>
+                    <select name="css_justify_content" id="css_justify_content">
+                        <option value="flex-start">flex-start</option>
+                        <option value="center">center</option>
+                        <option value="flex-end">flex-end</option>
+                        <option value="space-around">space-around</option>
+                        <option value="space-between">space-between</option>
+                        <option value="space-evenly">space-evenly</option>
+                    </select>
+                </div>
+
+                <div class="form_group">
+                    <label for="css_align_items">ALign Items</label>
+                    <select name="css_align_items" id="css_align_items">
+                        <option value="flex-start">flex-start</option>
+                        <option value="center">center</option>
+                        <option value="flex-end">flex-end</option>
+                    </select>
+                </div>
+
+            </form>
+
+
+        </div>
+
+    </main>
+
+<!--Connection to javascript-->
+<script src="./main.js"></script>
+</body>
+</html>
